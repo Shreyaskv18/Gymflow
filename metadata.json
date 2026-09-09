@@ -1,0 +1,6 @@
+{
+  "name": "GymFlow",
+  "description": "Professional single-gym management web application for monitoring memberships, attendance, revenue, and daily gym operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

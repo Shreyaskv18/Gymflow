@@ -1,0 +1,14 @@
+[
+  {
+    "id": "att-seed-1",
+    "memberId": "mem-03",
+    "memberName": "Karthik Sundaram",
+    "phone": "+91 99012 34567",
+    "planName": "Annual Elite Pro",
+    "date": "2026-09-09",
+    "checkInTime": "06:30 AM",
+    "status": "checked_in",
+    "createdAt": "2026-09-09T04:27:04.504Z",
+    "updatedAt": "2026-09-09T04:27:04.504Z"
+  }
+]

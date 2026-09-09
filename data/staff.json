@@ -1,0 +1,234 @@
+[
+  {
+    "id": "usr-01",
+    "gym_id": "gym-01",
+    "name": "Vikram",
+    "full_name": "Vikram",
+    "email": "admin@gymflow.demo",
+    "phone": "+91 98765 43210",
+    "password_hash": "827fd65dcb15e3d24176bc98b856d9bac9f3937d0611102fcab427e67aee2bdb",
+    "role": "owner",
+    "status": "active",
+    "permissions": {
+      "dashboard": {
+        "view": true
+      },
+      "members": {
+        "view": true,
+        "add": true,
+        "edit": true,
+        "delete": true
+      },
+      "payments": {
+        "view": true,
+        "add": true,
+        "edit": true,
+        "delete": true
+      },
+      "attendance": {
+        "view": true,
+        "mark": true,
+        "delete": true
+      },
+      "renewals": {
+        "view": true,
+        "sendReminder": true,
+        "renew": true
+      },
+      "plans": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": true
+      },
+      "settings": {
+        "access": true
+      },
+      "staff": {
+        "access": true,
+        "managePermissions": true
+      },
+      "auditLog": {
+        "view": true
+      }
+    },
+    "created_at": "2023-01-15T08:00:00.000Z",
+    "updated_at": "2023-01-15T08:00:00.000Z",
+    "last_login": "2026-09-09T04:50:49.469Z",
+    "avatarColor": "bg-indigo-600 text-white"
+  },
+  {
+    "id": "usr-02",
+    "gym_id": "gym-01",
+    "name": "Rahul Sharma",
+    "full_name": "Rahul Sharma",
+    "email": "staff@gymflow.demo",
+    "phone": "+91 98765 11001",
+    "password_hash": "094124235499a524303ee71850e24c2ee62fb1153eb29dd41aa0e4b4671d5361",
+    "role": "staff",
+    "status": "active",
+    "permissions": {
+      "dashboard": {
+        "view": true
+      },
+      "members": {
+        "view": true,
+        "add": true,
+        "edit": true,
+        "delete": false
+      },
+      "payments": {
+        "view": true,
+        "add": true,
+        "edit": false,
+        "delete": false
+      },
+      "attendance": {
+        "view": true,
+        "mark": true,
+        "delete": false
+      },
+      "renewals": {
+        "view": true,
+        "sendReminder": true,
+        "renew": true
+      },
+      "plans": {
+        "view": true,
+        "create": false,
+        "edit": false,
+        "delete": false
+      },
+      "settings": {
+        "access": false
+      },
+      "staff": {
+        "access": false,
+        "managePermissions": false
+      },
+      "auditLog": {
+        "view": false
+      }
+    },
+    "created_at": "2026-05-09T12:52:13.028Z",
+    "updated_at": "2026-09-06T13:29:44.413Z",
+    "last_login": "2026-09-06T13:29:44.419Z",
+    "avatarColor": "bg-emerald-600 text-white"
+  },
+  {
+    "id": "usr-03",
+    "gym_id": "gym-01",
+    "name": "Priya Patel",
+    "full_name": "Priya Patel",
+    "email": "priya@gymflow.demo",
+    "phone": "+91 98765 22002",
+    "password_hash": "094124235499a524303ee71850e24c2ee62fb1153eb29dd41aa0e4b4671d5361",
+    "role": "staff",
+    "status": "active",
+    "permissions": {
+      "dashboard": {
+        "view": true
+      },
+      "members": {
+        "view": true,
+        "add": false,
+        "edit": false,
+        "delete": false
+      },
+      "payments": {
+        "view": true,
+        "add": true,
+        "edit": false,
+        "delete": false
+      },
+      "attendance": {
+        "view": true,
+        "mark": true,
+        "delete": false
+      },
+      "renewals": {
+        "view": true,
+        "sendReminder": true,
+        "renew": true
+      },
+      "plans": {
+        "view": true,
+        "create": false,
+        "edit": false,
+        "delete": false
+      },
+      "settings": {
+        "access": false
+      },
+      "staff": {
+        "access": false,
+        "managePermissions": false
+      },
+      "auditLog": {
+        "view": false
+      }
+    },
+    "created_at": "2026-07-08T12:52:13.028Z",
+    "updated_at": "2026-08-27T12:52:13.028Z",
+    "last_login": "2026-09-05T12:52:13.028Z",
+    "avatarColor": "bg-amber-600 text-white"
+  },
+  {
+    "id": "usr-04",
+    "gym_id": "gym-01",
+    "name": "Arjun Nair",
+    "full_name": "Arjun Nair",
+    "email": "arjun@gymflow.demo",
+    "phone": "+91 98765 33003",
+    "password_hash": "094124235499a524303ee71850e24c2ee62fb1153eb29dd41aa0e4b4671d5361",
+    "role": "staff",
+    "status": "inactive",
+    "permissions": {
+      "dashboard": {
+        "view": true
+      },
+      "members": {
+        "view": true,
+        "add": true,
+        "edit": true,
+        "delete": false
+      },
+      "payments": {
+        "view": true,
+        "add": true,
+        "edit": false,
+        "delete": false
+      },
+      "attendance": {
+        "view": true,
+        "mark": true,
+        "delete": false
+      },
+      "renewals": {
+        "view": true,
+        "sendReminder": true,
+        "renew": true
+      },
+      "plans": {
+        "view": true,
+        "create": false,
+        "edit": false,
+        "delete": false
+      },
+      "settings": {
+        "access": false
+      },
+      "staff": {
+        "access": false,
+        "managePermissions": false
+      },
+      "auditLog": {
+        "view": false
+      }
+    },
+    "created_at": "2026-02-18T12:52:13.028Z",
+    "updated_at": "2026-08-07T12:52:13.028Z",
+    "last_login": "2026-08-07T12:52:13.028Z",
+    "avatarColor": "bg-slate-600 text-white"
+  }
+]
